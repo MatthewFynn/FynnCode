@@ -9,6 +9,7 @@ Directory _SSL_Model_MFCC contains the checkpoit meights for LFNET2D
 run_multiple_cmdarg_SingleChan_LFNET.sh - execute this bash script to run LFNET. You will need to change the arguments to load data from your own directory.
 
 run_model_trainer_SC_ONLY.py - main python script
+
 run_model_trainer_HF_LF_SC.py - main python script for hybrid model
 
 Ind_Table* - indicies from noisy segment identification algorithm. Change them accordinly to suit your data. Run files in "Noisy_Segment_identification" directory to generate these .csv tables. MATLAB and python versions are both available.
