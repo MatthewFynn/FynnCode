@@ -28,7 +28,7 @@ def cli(**kwargs):
 
 
 #/media/matthew-fynn/TH/SSL_data/Kerguelen2018
-#home/matthew-fynn/Desktop/Desktop/SSL_data/Ker2018_2s
+#home/matthew-fynn/Desktop/Desktop/SSL_data/Ker2018_4s
 def cli(input_dir, output_dir, frag_len, num_frag):
     pd.set_option('display.max_colwidth', None)
     wav_files = get_wav_files_to_dataframe(input_dir)
@@ -53,7 +53,7 @@ def cli(input_dir, output_dir, frag_len, num_frag):
             else:
                 break
         
-    #segment and save into 2 second fragments.
+    #segment and save into 4 second fragments.
     #i wont use all the data, but will take x segments from each file
 
 def get_wav_files_to_dataframe(input_directory):
