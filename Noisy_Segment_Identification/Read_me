@@ -1,0 +1,21 @@
+The Matlab file "concatenate_and_save.m" has the following functionality:
+    1. Reads all .wav files per subject
+    2. Performs spike removal on all PCG channels
+    3. Concatenates channel wise
+    4 Saves concatenated files into a new directory - 1 .wav file per subject
+
+    It calls the function "schmidt_spike_removal"
+
+
+The Matlabe file "join_dia_sit_noiseInd.m" has the following functionality:
+    1. Reads all. wav files per subject
+    2. For each PCG channel:
+        - Does spike removal
+        - calls the function "segment_signal_noise_multi_MedPow.m" (for the PCG signal and noise mic)
+        - joins the "bad indicies from PCG and noise mic
+        - converts them to a list of "good indicies". This includes first and last 1.5 seconds of each file, so that concatenated areas are never included in downstream tasks
+        - saves each subject and corresponding good indicies in a channel-specific csv file
+
+    It calls the function "schmidt_spike_removal" and "segment_signal_noise_multi_MedPow.m"
+
+    NOTE - concatenated files are no longer saved here

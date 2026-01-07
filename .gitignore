@@ -1,0 +1,33 @@
+cat > .gitignore << 'EOF'
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large / binary stuff
+*.pt
+*.pth
+*.npy
+*.npz
+*.pkl
+
+data/
+runs/
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.log
+EOF
+
+saved*/**

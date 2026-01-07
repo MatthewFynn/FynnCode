@@ -1,0 +1,8 @@
+{
+  "architectures": [
+    "UNet1d"
+  ],
+  "model_type": "unet",
+  "torch_dtype": "float32",
+  "transformers_version": "4.38.2"
+}
