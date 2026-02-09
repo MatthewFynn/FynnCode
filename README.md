@@ -14,7 +14,7 @@ Directory '_SSL_Model_MFCC' contains the checkpoit weights for LFNET2D
 
 'run_model_trainer_HF_LF_SC.py' - main python script for hybrid model
 
-'Ind_Table*' - indicies from noisy segment identification algorithm. Change them accordingly to suit your data. Run files in "Noisy_Segment_identification" directory to generate these .csv tables. MATLAB and python versions are both available.
+Ind_Table* - indicies from noisy segment identification algorithm. Change them accordinly to suit your data. Run files in "Noisy_Segment_identification" directory to generate these .csv tables. MATLAB and python versions are both available.
 
 ## Add your files
 
