@@ -2,11 +2,10 @@
 set -euo pipefail
 
 split=3
-output_dir=saved_results_IIT2
+output_dir=saved_results
 v=1
 #__________________
 CH_STRING="123456"
-CH_STRING="34"
 
 # --- Fixed args that don't change across runs ---
 BASE_ARGS="-r cross_fold_splits_ExclusionCriteria_${split}_5.csv \
